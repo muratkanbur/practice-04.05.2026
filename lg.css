@@ -1,0 +1,9 @@
+.top-bar{
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-hamburger{
+    display: none;
+}

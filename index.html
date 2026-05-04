@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="./md.css"
+      media="all and (min-width: 768px) and (max-width: 1023.98px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./lg.css"
+      media="all and (min-width: 1024px)"
+    />
   </head>
   <body>
     <h1>Food Ordering Website</h1>
@@ -22,6 +32,14 @@
           <li>Our Popular Food</li>
         </ul>
         <a type="button" href="" class="btn">Download App</a>
+        <button class="nav-hamburger" aria-label="hamburger icon">
+          <img
+            class="nav-hamburger-icon"
+            src="./assets/hamburger-icon.svg"
+            alt="hamburger icon"
+            aria-hidden="true"
+          />
+        </button>
       </nav>
       <div class="top-content">
         <section class="left-top-content">
@@ -33,6 +51,30 @@
             />
             <span class="paragraph">People trust us</span>
           </div>
+          <h1>We're <span class="red-text">Serious</span> For <span class="red-text">Food</span> & <span class="orange-text">Delivery</span>. </h1>
+          <p class="paragraph">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes!</p>
+
+          <form action="" method="GET">
+          <input
+            type="text"
+            placeholder="  Search food"
+            name="search"
+            aria-label="search"
+            class="form-input"
+          />
+          <button type="submit">
+            <img
+              class="icons"
+              src="./assets/search-icon.svg"
+              alt="Search"
+            />
+          </button>
+        </form>
+        <div class="video-img">
+          <img class="icons" src="./assets/video-icon.svg" alt="video icon">
+          <a href="#"></a>Watch Video</a>
+        </div>
+
         </section>
         <section class="right-top-content"></section>
       </div>

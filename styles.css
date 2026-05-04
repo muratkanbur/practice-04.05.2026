@@ -8,8 +8,9 @@
     --yellow: #d7d29c;
     --red: #ff0000;
     --white: #ffffff;
-    --paragraph-color: #3f3c3c;
+    --paragraph-color: #6c6a6a;
     --pink: #ffb6c1;
+    --orange: #ffa500;
 
     --sm-font-size: 14px;
 }
@@ -45,11 +46,11 @@ ul{
 .nav-bar{
     display: flex;
     justify-content: space-around;
-    gap: 50px;
     align-items: center;
+    padding-top:20px;
 }
 
-.logo{
+.logo, .nav-hamburger-icon{
     max-width:50px;
     max-height:auto;
 }
@@ -60,9 +61,7 @@ ul{
 }
 
 .top-bar{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    display: none; 
 }
 
 .btn{
@@ -74,8 +73,8 @@ ul{
 
 .top-content{
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    margin:50px 0 0 50px;
+    grid-template-rows: 1fr 1fr;
+    margin:50px;
 }
 
 .icon-span{
@@ -83,8 +82,50 @@ ul{
     align-items: center;
     gap: 10px;
     background-color : var(--pink);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
 }
 .paragraph{
     color: var(--paragraph-color);
     font-size: var(--sm-font-size);
     }
+
+.form-input{
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid var(--black);
+    width: 100%;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-top-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    margin-top:0;
+    text-align: left;
+}
+
+.red-text{
+    color: var(--red);
+}
+
+.orange-text{
+    color: var(--orange);
+}
